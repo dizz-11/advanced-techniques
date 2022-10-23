@@ -51,6 +51,37 @@ a {
 
 /* NAV End*/
 
+/* COVER START */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+/* COVER END */
+
+/* Project Grid START */
+
+.grid-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+    width: 100%;
+}
+
+.box {
+    background-color: rgb(73, 73, 73);
+    padding: 100px;
+    margin: 20px;
+}
+
+/* Project Grid END */
+
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
