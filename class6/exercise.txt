@@ -1,0 +1,7 @@
+let firstnumber = prompt("Write a number")
+let secondnumber = prompt("Write a second number")
+let addition = Number(firstnumber) + Number(secondnumber)
+let substraction = Number(firstnumber) - Number(secondnumber)
+let multiplication = Number(firstnumber) * Number(secondnumber)
+let division = Number(firstnumber) / Number(secondnumber)
+alert("The addition of these numbers results in " + addition + "." + "\nThe substraction of these numbers results in " + substraction + "." + "\nThe multiplication of these numbers results in " + multiplication + "." + "\nThe division of these numbers results in " + division + ".")
