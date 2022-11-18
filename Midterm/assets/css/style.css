@@ -65,6 +65,15 @@ h6 {
   opacity: 1;
 }
 
+.btn-primary {
+  background: #A62D43;
+  border-color: #A62D43;
+}
+
+a .btn-primary:hover {
+  background: #385C73;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -269,6 +278,47 @@ h6 {
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #F2B591;
+}
+
+.hero-container .btn {
+  background: #385C73;
+  border: 8px #385C73 solid;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 32px;
+  margin: auto;
+  font-size: 1.2rem;
+  width: auto;
+}
+
+.hero-container .btn:hover {
+  background: #4F818C;
+  border: 10px #4F818C solid;
+}
+
+.quotationMarks {
+  color: #fff;
+  font-size: 72px;
+}
+
+#leftQuote {
+  color: #fff;
+  padding-top: 4%;
+}
+
+#quote {
+  color: #fff;
+  padding-top: 4%;
+}
+
+#author {
+  color: #fff;
+}
+
+#rightQuote {
+  color: #fff;
+  padding-top: 4%;
 }
 
 @media (min-width: 1024px) {
